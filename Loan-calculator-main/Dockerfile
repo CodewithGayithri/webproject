@@ -7,6 +7,6 @@ COPY main.js /usr/share/nginx/html/
 COPY style.css /usr/share/nginx/html/
 
 # Expose port 80
-EXPOSE 8880
+EXPOSE 80
 
 # Start nginx (default CMD in nginx image)
